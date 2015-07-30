@@ -9,6 +9,7 @@ scala:
 branches:
   only:
     - master
+    - 0.4.0-dev
 script: "sbt clean coverage test"
 after_success: "sbt coveralls"
 
